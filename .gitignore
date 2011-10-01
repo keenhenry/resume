@@ -9,6 +9,7 @@
 *.log
 *.pdf
 *.doc
+*.dvi
 .*
 !.gitignore
 
