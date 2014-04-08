@@ -1,41 +1,49 @@
-%______________________________________________________________________________________________________________________
+%______________________________________________________________________________
 % Henry Huang's resume using Kamil K Wojcicki's template
 % @brief    LaTeX2e Resume for Kamil K Wojcicki
 \documentclass[margin,line]{resume}
 
 \usepackage{url}
 
-%______________________________________________________________________________________________________________________
+%_______________________________________________________________________________
 \begin{document}
-\name{\Large Hsiu-Yu Huang \hspace{82 mm} GIS. Mobile. Big Data}
+\name{\Large Hsiu-Yu Huang \hspace{82 mm}}
 \begin{resume}
 
-    %__________________________________________________________________________________________________________________
+    %___________________________________________________________________________
     % Contact Information
     %\section{\mysidestyle Contact \\ Information}
       \begin{tabular}{@{}p{6cm}p{8.5cm}}
       % The personal homepage and address listed below will be changed soon
-      \url{keenhenry.me}  &  Geldropseweg 14-C \\
-      keenhenry1109@gmail.com             &  5611 SH, Eindhoven \\
-      +31-0645-626-180	& The Netherlands \\
+      \url{keenhenry.me}      & Sterkenburg 53-55 \\
+      keenhenry1109@gmail.com & 5653 NC, Eindhoven \\
+      +31-0645-626-180        & The Netherlands \\
       \end{tabular}
 
  
-    %__________________________________________________________________________________________________________________
+    %___________________________________________________________________________
     % Summary
     \section{\mysidestyle Summary}
       % this parts has to be modified along time
-      - GIS \& Big Data processing, database applications, C/C++ () \\
-      - Mobile development, Android, Java () \\
+      - GIS \& spatial data processing \\
+      - SQLite database applications \\
+      - Android mobile development \\
+      - Python command line tool development \\
       
-    %__________________________________________________________________________________________________________________
+    %__________________________________________________________________________
     % Work Experience
     \section{\mysidestyle Work \\ Experience}
 
+    % Need to elaborate more about your work experience with Mapscape
     \textbf{Mapscape B.V.}, Eindhoven, The Netherlands \\
     \textsl{Software Engineer} \hfill 10/2011 -- Present \vspace{-3mm}\\\vspace{-1mm}%
       \begin{list2}
-      \item Data Visualization  % This part needs to be added and modified
+      \item NDS compiler feature development
+      \item NDS compiler bug fixing
+      \item Junction view image processing
+      \item Elevation contour polygon merging
+      \item Polyline simplification
+      \item Internal tooling development for data processing
       \end{list2}
 
     \textbf{Freelancer}, Taiwan \\
@@ -60,14 +68,7 @@
       \item Gave instructions to undergraduate students about doing electronic experiments and projects
       \end{list2}
 
-    \textbf{Hsinchu County Government}, Hsinchu, Taiwan \\
-    \textsl{Compulsory Military Service} \hfill 08/2005 -- 11/2006 \vspace{-3mm}\\\vspace{-1mm}%
-      \begin{list2}
-      \item Provided administrative service to Substitute Services Draftees of Hsinchu County
-      \item Coordinated events for Substitue Services Draftees and supervised fifteen Draftees
-      \end{list2}
-
-    %__________________________________________________________________________________________________________________
+    %___________________________________________________________________________
     % Education
     \section{\mysidestyle Education}
 
@@ -81,9 +82,25 @@
        \item B.S. in Electronics Engineering
       \end{list2}
 
-    %__________________________________________________________________________________________________________________
+    %___________________________________________________________________________
     % Project Experience
     \section{\mysidestyle Projects}
+    % ?dark table project
+    % ?eserv project
+
+    % more points for pda to come - X features (like accessing Github Issues)
+    %                             - toolings used (like continuous integration)
+    %                             - python 3 support
+    \textbf{Personal Desktop Assistant} - \url{http://bit.ly/1mFJTEy} \hfill 03/2014 \vspace{-3mm}\\\vspace{-1mm}%
+      \begin{list2}
+       \item A Python command line tool managing todo lists
+       \item Storing list data both locally and remotely
+       \item Maintain code quality by using Pylint
+       \item Unit tested by Python unittest
+       \item Used tox for test automation
+       \item Used reStructuredText for documentation
+       \item available in PyPI for download
+      \end{list2}
 
     \textbf{Game Isolate} - \url{http://bit.ly/eiooQ0} \hfill 10/2010 \vspace{-3mm}\\\vspace{-1mm}%
       \begin{list2}
@@ -93,28 +110,10 @@
        \item Used Ant for software build and Proguard for obfuscating codes
        \item Game AI engine implemented with $\alpha \beta$ search algorithm and quiescence search
       \end{list2}
-
-    \textbf{Hank Shell} - \url{http://bit.ly/pnVwwk} \hfill 08/2010 \vspace{-3mm}\\\vspace{-1mm}%
-      \begin{list2}
-       \item Implemented 9 built-in commands
-       \item Support I/O redirections
-       \item Support multiple level pipelining
-       \item Support globbing
-       \item Support command line file/command name auto-completion
-       \item Implemented several environmental variables
-      \end{list2}
-
-    \textbf{CRYPS} \hfill 09/2008 \vspace{-3mm}\\\vspace{-1mm}%
-      \begin{list2}
-       \item Designed a scripting language (CRYPS) for writing cryptographic operations
-       \item Implemented a compiler for CRYPS
-       \item The compiler was written in OCaml
-      \end{list2}
-
-%______________________________________________________________________________________________________________________
+%_______________________________________________________________________________
 \end{resume}
 \end{document}
 
 
-%______________________________________________________________________________________________________________________
+%_______________________________________________________________________________
 % EOF
