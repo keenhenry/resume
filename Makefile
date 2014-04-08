@@ -4,4 +4,4 @@ resume:
 	pdflatex resume_henry.tex
 
 clean:
-	rm *.log *.dvi *.pdf *.aux
+	rm *.log *.pdf
