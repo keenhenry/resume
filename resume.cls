@@ -813,12 +813,10 @@
 
 \oddsidemargin -11mm
 \evensidemargin -11mm
-%\textwidth=150mm
-\textwidth=154mm
+\textwidth=150mm
 \itemsep=0cm
 \parsep=0cm
 \topmargin -12mm
-%\textheight 265mm
 \textheight 275mm
 
 \newenvironment{list1}{
