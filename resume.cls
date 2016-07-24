@@ -816,7 +816,7 @@
 \textwidth=150mm
 \itemsep=0cm
 \parsep=0cm
-\topmargin -12mm
+\topmargin -18mm
 \textheight 275mm
 
 \newenvironment{list1}{
