@@ -811,12 +811,12 @@
 %           and res.cls class by Michael DeCorte.
 %           I have merged these for educational purposes only.
 
-\oddsidemargin -11mm
-\evensidemargin -11mm
+\oddsidemargin -12mm
+\evensidemargin -12mm
 \textwidth=150mm
 \itemsep=0cm
 \parsep=0cm
-\topmargin -18mm
+\topmargin -15mm
 \textheight 275mm
 
 \newenvironment{list1}{
@@ -831,7 +831,7 @@
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.25in}}}{\end{list}}
+      \setlength{\leftmargin}{0.15in}}}{\end{list}}
 
 %\newcommand{\mysidestyle}{\footnotesize\sc}
 \newcommand{\mysidestyle}{\small\sc}
